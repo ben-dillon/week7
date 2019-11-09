@@ -1,0 +1,37 @@
+#resizable1 {
+  width: 150px;
+  height: 150px;
+  background: #B2E1FD;
+  padding:0.5em;
+  margin-bottom: 50px;
+}
+
+.ui-widget-content {
+  background: #B2E1FD;
+  border: 1px solid #dddddd;
+  color: #333333;
+  font-family: sans-serif;
+}
+
+#selectable1, #sortable1, #sortable2, #sortable3 {
+  list-style: none;
+  margin:0;
+  padding:0;
+  width: 15%;
+}
+
+#selectable1 li, #sortable1 li, #sortable2 li, #sortable3 li {
+  margin:5px;
+  padding:10px;
+  font-size:18px;
+  height:18px;
+}
+
+#selectable1 .ui-selecting {
+  background: #9AE0D1
+}
+
+#selectable1 .ui-selected {
+  background: #aaaaaa;
+  color: white;
+}
